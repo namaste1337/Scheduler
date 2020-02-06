@@ -1,0 +1,25 @@
+.MenuComponent {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #1E1E2D;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .MenuComponent__menuPanelLogo {
+    display: flex;
+    flex: 1;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    padding: 10px 10px 10px 20px;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(26,26,39,1) 0%, rgba(26,26,39,1) 100%);
+    align-items: center;
+    color: #def9ff;
+  }
+  
+  .MenuComponent__clockIcon {
+    margin-right: 10px;
+  }

@@ -1,0 +1,45 @@
+/******************************
+  Schedules - Row Display
+*******************************/
+
+.SchedulesTableComponent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 1rem;
+  box-shadow: 1px 1px 10px -5px rgba(0,0,0,0.5);
+}
+
+.SchedulesTableComponent_noDataMessage {
+  flex: 1;
+  display: flex;
+  margin: 1rem;
+  color: rgb(189, 189, 189);
+  justify-content: center;
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+
+.SchedulesTableComponent__scheduleRow {
+  display: flex;
+  font-family: "Poppins";
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  flex: 1;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 0.1pt solid rgb(233, 233, 233);
+} 
+
+.SchedulesTableComponent__rowHeader {
+  flex: 1;
+  padding: 0.5rem;
+  font-weight: 400;
+  color: #9fa2ab;
+}
+
+.SchedulesTableComponent__rowCell {
+  flex: 1;
+  display: flex;
+  padding: 0.5rem;
+}
